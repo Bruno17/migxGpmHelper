@@ -3,17 +3,19 @@
   "lowCaseName":"migxgpmhelper",
   "description":"",
   "author":"",
-  "version":"0.1.0-beta",
-    "menus": [
+  "version":"0.1.1-beta",
+  "package":{
+    "menus":[
       {
-        "text": "migxGpmHelper",
-        "description": "Helps to export elements and build the GPM config",
-        "action": "index",
-        "parent": "components",
-        "namespace": "migx",
-        "params": "&configs=mghcategories:migxgpmhelper||mghpackages:migxgpmhelper"
+        "text":"migxGpmHelper",
+        "description":"Helps to export elements and build the GPM config",
+        "action":"index",
+        "parent":"components",
+        "namespace":"migx",
+        "params":"&configs=mghcategories:migxgpmhelper||mghpackages:migxgpmhelper"
       }
-    ],
+    ]
+  },
   "database":{
     "tables":[
       "mghCategory",
