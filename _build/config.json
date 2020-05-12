@@ -11,7 +11,7 @@
         "action": "index",
         "parent": "components",
         "namespace": "migx",
-        "params": "&configs=mghcategories||mghpackages"
+        "params": "&configs=mghcategories:migxgpmhelper||mghpackages:migxgpmhelper"
       }
     ],
   "database":{
