@@ -5,8 +5,8 @@ config.core.php
 nbproject
 .project
 
-assets/components/gitpackagemanagement/packages/*
-!assets/components/gitpackagemanagement/packages/.gitignore
+assets/components/migxgpmhelper/packages/*
+!assets/components/migxgpmhelper/packages/.gitignore
 
 cli/vendor
 _build/site
