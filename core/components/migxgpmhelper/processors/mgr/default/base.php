@@ -66,8 +66,6 @@ class mghBase {
             $object = $modx->newObject('mghPackage');
         } 
         
-        print_r($object->toArray());
-        
         $config = $this->getConfig();
         
         $release = $object->get('release');

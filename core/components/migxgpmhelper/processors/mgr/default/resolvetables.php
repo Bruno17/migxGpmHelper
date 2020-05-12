@@ -25,6 +25,8 @@ class resolvetables extends mghBase {
             $schemapath = $modelpath . 'schema/';
             $schemafile = $schemapath . $packageNameLower . '.mysql.schema.xml';
 
+            $this->writeGeneralConfig();
+
             if (file_exists($schemafile)) {
 
                 $manager = $modx->getManager();
@@ -42,8 +44,7 @@ class resolvetables extends mghBase {
                         $classes[] = $class;
                     }
                 }
-                
-                $this->writeGeneralConfig();
+
 
                 $config = $this->getConfig();
 
