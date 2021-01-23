@@ -189,7 +189,7 @@ class writetofiles extends mghBase {
             $this->writeElFile($filename, $content);
 
             //$element['category'] = 0;
-            if ($category_name != $this->elementsPackage){
+            if (strtolower($category_name) != strtolower($this->elementsPackage)){
                 //write category only, if not the maincategory
                 $element['category'] = $category_name;    
             }
